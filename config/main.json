@@ -1,0 +1,49 @@
+{
+  "cacheDirectory": "<home>/.dotfile-cache",
+  "backupDirectory": "<home>/.dotfile-backup",
+  "tempDirectory": {
+    "location": "<home>/.dotfile-tmp",
+    "deleteIfExists": true,
+    "deleteOnFinish": false
+  },
+  "keys": {
+    "github": {
+      "type": "ed25519",
+      "private": ".ssh/github_key"
+    }
+  },
+  "directories": [
+    {
+      "name": ".ssh",
+      "symlink": "<home>/.ssh",
+      "deleteIfPresent": false
+    },
+    {
+      "name": ".vim",
+      "symlink": "<home>/.vim",
+      "deleteIfPresent": false,
+      "sub": [
+        "/pack/vendor/start"
+      ]
+    }
+  ],
+  "git": {
+    "repos": [
+      {
+        "repo": "https://github.com/preservim/nerdtree.git",
+        "repoFolder": "nerdtree",
+        "location": ".vim/pack/vendor/start"
+      }
+    ]
+  },
+  "dotfiles": [
+    "vimrc.json",
+    "bashrc.json"
+  ],
+  "symlinks": [
+    {
+      "source": ".vimrc",
+      "destination": "<home>/test"
+    }
+  ]
+}

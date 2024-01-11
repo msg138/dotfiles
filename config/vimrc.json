@@ -1,0 +1,59 @@
+{
+  "fileName": ".vimrc",
+  "symlink": "<home>/.vimrc",
+  "lineCommentCharacter": "\"",
+  "configValues": [
+    {
+      "key": "set mouse",
+      "value": "a",
+      "deliminator": "="
+    },
+    {
+      "key": "color",
+      "value": "desert"
+    },
+    {
+      "comment": "Syntax Highlighting",
+      "key": "syntax",
+      "value": "on"
+    },
+    {
+      "comment": "Tab Options"
+    },
+    {
+      "key": "set",
+      "value": "autoindent"
+    },
+    {
+      "key": "set",
+      "value": "expandtab"
+    },
+    {
+      "key": "set shiftwidth",
+      "deliminator": "=",
+      "value": "2"
+    },
+    {
+      "key": "set tabstop",
+      "deliminator": "=",
+      "value": "2"
+    },
+    {
+      "key": "set showtabline",
+      "deliminator": "=",
+      "value": "2"
+    },
+    {
+      "key": "set",
+      "value": "smarttab"
+    },
+    {
+      "key": "set",
+      "value": "hlsearch"
+    },
+    {
+      "key": "set",
+      "value": "number"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@dotfiles/core",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Dot file and server configurator",
+  "scripts": {
+    "backup": "ACTION_BACKUP=true bun run ./index.ts",
+    "create:all": "ACTION_FILE=true ACTION_DIR=true ACTION_GIT=true ACTION_WRITE=true ACTION_SYMLINK=true bun ./index.ts",
+    "create:dotfiles": "ACTION_FILE=true ACTION_WRITE=true ACTION_SYMLINK=true bun ./index.ts",
+    "create:directories": "ACTION_DIR=true ACTION_WRITE=true ACTION_SYMLINK=true bun ./index.ts",
+    "create:git": "ACTION_GIT=true ACTION_WRITE=true ACTION_SYMLINK=true bun ./index.ts"
+  },
+  "author": "Mikey George"
+}
