@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$1" = "3" ]; then
+  tmux new-session -d -s 3-sess
+  tmux split-window -t 3-sess:0.0 -h
+  tmux split-window -t 3-sess:0.1 -v
+  tmux attach-session -t 3-sess
+else
+  tmux new
+fi
+

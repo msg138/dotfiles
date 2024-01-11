@@ -19,6 +19,11 @@
       "value": "select-pane -R"
     },
     {
+      "comment": "This is for vi-like movement in Tmux copy mode",
+      "key": "setw -g mode-keys",
+      "value": "vi"
+    },
+    {
       "comment": "Sensible Defaults. See https://github.com/tmux-plugins/tmux-sensible",
       "key": "set -s escape-time",
       "value": "0"
@@ -79,7 +84,9 @@
       "value": "'~/.tmux/plugins/tpm/tpm'"
     },
     {
-      "comment": "StatusBar"
+      "comment": "Enable mouse",
+      "key": "set -g",
+      "value": "mouse"
     }
   ]
 }

@@ -40,8 +40,9 @@
     },
     {
       "key": "export PATH",
-      "value": "$BUN_INSTALL/bin:$PATH",
-      "deliminator": "="
+      "value": "$BUN_INSTALL/bin:$PATH:<this-dir>/bin",
+      "deliminator": "=",
+      "replaceVariables": true
     }
   ]
 }

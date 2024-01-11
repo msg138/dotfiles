@@ -1,6 +1,9 @@
+import path from 'node:path';
+
 const stringVariables: Record<string, (() => string) | string> = {
   '<tmp>': '.tmp',
   '<home>': `${process.env.HOME}`,
+  '<this-dir>': `${path.resolve(import.meta.dir, '..', '..')}`
 };
 
 const replaceStringVariables = (str: string): string => {

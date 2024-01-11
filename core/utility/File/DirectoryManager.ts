@@ -28,6 +28,10 @@ class DirectoryManager {
   }
 
   createSymlink() {
+    if (!this.directoryConfiguration.symlink) {
+      console.log('No symlink option. Skipping');
+      return;
+    }
     const finalPath = replaceStringVariables(this.directoryConfiguration.symlink);
     if (!this.symlinkWriter.symlinkExists(finalPath)) {
       if (this.directoryReader.directoryExists(finalPath) && this.directoryReader.isDirectory(finalPath)) {

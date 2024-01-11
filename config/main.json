@@ -14,6 +14,9 @@
   },
   "directories": [
     {
+      "name": "git-clones"
+    },
+    {
       "name": ".ssh",
       "symlink": "<home>/.ssh",
       "deleteIfPresent": false
@@ -23,7 +26,8 @@
       "symlink": "<home>/.vim",
       "deleteIfPresent": false,
       "sub": [
-        "/pack/vendor/start"
+        "/pack/vendor/start",
+        "/colors"
       ]
     },
     {
@@ -43,6 +47,36 @@
         "location": ".vim/pack/vendor/start"
       },
       {
+        "repo": "https://github.com/catppuccin/vim.git",
+        "repoFolder": "vim",
+        "location": "git-clones"
+      },
+      {
+        "repo": "https://github.com/preservim/nerdcommenter.git",
+        "repoFolder": "nerdcommenter",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/ycm-core/YouCompleteMe.git",
+        "repoFolder": "YouCompleteMe",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/itchyny/lightline.vim.git",
+        "repoFolder": "lightline.vim",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/sheerun/vim-polyglot.git",
+        "repoFolder": "vim-polyglot",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/junegunn/fzf.git",
+        "repoFolder": "fzf",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
         "repo": "https://github.com/tmux-plugins/tpm.git",
         "repoFolder": "tpm",
         "location": ".tmux/plugins"
@@ -58,6 +92,10 @@
     {
       "source": ".vimrc",
       "destination": "<home>/test"
+    },
+    {
+      "source": "git-clones/vim/colors/catppuccin_mocha.vim",
+      "destination": "<home>/.vim/colors/catppuccin_mocha.vim"
     }
   ]
 }

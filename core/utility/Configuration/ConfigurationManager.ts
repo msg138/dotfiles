@@ -13,6 +13,7 @@ export interface ConfigurationContents {
   configValues: Array<{
     key: string;
     value: string;
+    replaceVariables?: boolean;
     deliminator?: string;
   }>;
   // Used in the case of Record / object types
@@ -74,7 +75,11 @@ class ConfigurationManager {
           }
           if (configValue.key && configValue.value) {
             let delim = configValue.deliminator ?? deliminator;
-            fullFileContents += `${configValue.key}${delim}${configValue.value}\n`;
+            let value = `${configValue.key}${delim}${configValue.value}\n`;
+            if (configValue.replaceVariables) {
+              value = replaceStringVariables(value);
+            }
+            fullFileContents += value;
           }
         });
         this.fileWriter.writeEntireFileContents(

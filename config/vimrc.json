@@ -4,13 +4,36 @@
   "lineCommentCharacter": "\"",
   "configValues": [
     {
+      "key": "set",
+      "value": "nocompatible"
+    },
+    {
+      "key": "set encoding",
+      "value": "utf-8",
+      "deliminator": "="
+    },
+    {
+      "key": "set",
+      "value": "termguicolors"
+    },
+    {
+      "key": "set foldmethod",
+      "value": "indent",
+      "deliminator": "="
+    },
+    {
+      "key": "set foldlevelstart",
+      "value": "30",
+      "deliminator": "="
+    },
+    {
       "key": "set mouse",
       "value": "a",
       "deliminator": "="
     },
     {
       "key": "color",
-      "value": "desert"
+      "value": "catppuccin_mocha"
     },
     {
       "comment": "Syntax Highlighting",
@@ -54,6 +77,31 @@
     {
       "key": "set",
       "value": "number"
+    },
+    {
+      "comment": "Enable YouCompleteMe",
+      "key": "",
+      "value": ""
+    },
+    {
+      "comment": "Mapping for FuzzyFinder (FZF)",
+      "key": "map ;",
+      "value": ":FZF<CR>"
+    },
+    {
+      "comment": "Mapping for Reloading Vim config",
+      "key": "map <Space>r",
+      "value": ":source ~/.vimrc <CR>"
+    },
+    {
+      "comment": "Mapping for Sexy Nerd Comments",
+      "key": "map <space>/",
+      "value": ":call nerdcommenter#Comment('x', 'toggle')<CR>"
+    },
+    {
+      "comment": "Mapping for NERDTree Toggle",
+      "key": "map <Space>t",
+      "value": ":NERDTreeToggle<CR>"
     }
   ]
 }
