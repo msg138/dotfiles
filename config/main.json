@@ -25,6 +25,14 @@
       "sub": [
         "/pack/vendor/start"
       ]
+    },
+    {
+      "name": ".tmux",
+      "symlink": "<home>/.tmux",
+      "deleteIfPresent": false,
+      "sub": [
+        "/plugins"
+      ]
     }
   ],
   "git": {
@@ -33,12 +41,18 @@
         "repo": "https://github.com/preservim/nerdtree.git",
         "repoFolder": "nerdtree",
         "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/tmux-plugins/tpm.git",
+        "repoFolder": "tpm",
+        "location": ".tmux/plugins"
       }
     ]
   },
   "dotfiles": [
     "vimrc.json",
-    "bashrc.json"
+    "bashrc.json",
+    "tmuxrc.json"
   ],
   "symlinks": [
     {

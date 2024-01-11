@@ -1,0 +1,85 @@
+{
+  "fileName": "tmux.conf",
+  "symlink": "<home>/.tmux.conf",
+  "configValues": [
+    {
+      "key": "bind h",
+      "value": "select-pane -L"
+    },
+    {
+      "key": "bind j",
+      "value": "select-pane -D"
+    },
+    {
+      "key": "bind k",
+      "value": "select-pane -U"
+    },
+    {
+      "key": "bind l",
+      "value": "select-pane -R"
+    },
+    {
+      "comment": "Sensible Defaults. See https://github.com/tmux-plugins/tmux-sensible",
+      "key": "set -s escape-time",
+      "value": "0"
+    },
+    {
+      "key": "set -g history-limit",
+      "value": "50000"
+    },
+    {
+      "key": "set -g display-time",
+      "value": "4000"
+    },
+    {
+      "key": "set -g status-interval",
+      "value": "5"
+    },
+    {
+      "key": "set -g default-terminal",
+      "value": "\"screen-256color\""
+    },
+    {
+      "key": "set -g focus-events",
+      "value": "on"
+    },
+    {
+      "comment": "Plugins"
+    },
+    {
+      "key": "set -g @plugin",
+      "value": "'tmux-plugins/tpm'"
+    },
+    {
+      "key": "set -g @plugin",
+      "value": "'catppuccin/tmux'"
+    },
+    {
+      "key": "set -g @catpuccin_flavour",
+      "value": "'latte'"
+    },
+    {
+      "comment": "Catpuccin Plugin Settings",
+      "key": "set -g @catpuccin_window_right_separator",
+      "value": "\"|\""
+    },
+    {
+      "comment": "This is to make sure that tpm is up to date",
+      "key": "run",
+      "value": "'(cd ~/.tmux/plugins/tpm/ && git pull) && ~/.tmux/plugins/tpm/bin/install_plugins'"
+    },
+    {
+      "comment": "This is to make sure that any plugins are installed or updated as needed",
+      "key": "run",
+      "value": "'~/.tmux/plugins/tpm/bin/update_plugins all && ~/.tmux/plugins/tpm/bin/install_plugins'"
+    },
+    {
+      "comment": "This is to actually load the plugins",
+      "key": "run",
+      "value": "'~/.tmux/plugins/tpm/tpm'"
+    },
+    {
+      "comment": "StatusBar"
+    }
+  ]
+}
