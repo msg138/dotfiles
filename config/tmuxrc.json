@@ -82,11 +82,6 @@
       "comment": "This is to actually load the plugins",
       "key": "run",
       "value": "'~/.tmux/plugins/tpm/tpm'"
-    },
-    {
-      "comment": "Enable mouse",
-      "key": "set -g",
-      "value": "mouse"
     }
   ]
 }
