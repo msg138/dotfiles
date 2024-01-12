@@ -45,7 +45,7 @@
     },
     {
       "key": "export PATH",
-      "value": "$BUN_INSTALL/bin:$PATH:<this-dir>/bin",
+      "value": "$BUN_INSTALL/bin:$PATH:<this-dir>/bin:$HOME/.cargo/bin",
       "deliminator": "=",
       "replaceVariables": true
     },

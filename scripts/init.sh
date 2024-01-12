@@ -26,3 +26,7 @@ if [ $? -eq 1 ]; then
   exit 1
 fi
 
+set -e
+
+/bin/bash "$this_directory/install-rust.sh"
+/bin/bash "$this_directory/install-ripgrep.sh"
