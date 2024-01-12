@@ -43,6 +43,21 @@
       "value": "$BUN_INSTALL/bin:$PATH:<this-dir>/bin",
       "deliminator": "=",
       "replaceVariables": true
+    },
+    {
+      "key": "export VISUAL",
+      "value": "vim",
+      "deliminator": "="
+    },
+    {
+      "key": "export EDITOR",
+      "value": "\"$VISUAL\"",
+      "deliminator": "="
+    },
+    {
+      "key": "export GIT_EDITOR",
+      "value": "\"$VISUAL\"",
+      "deliminator": "="
     }
   ]
 }
