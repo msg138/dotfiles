@@ -42,7 +42,7 @@
     },
     {
       "key": "set -g default-terminal",
-      "value": "\"screen-256color\""
+      "value": "\"screen-256color-bce\""
     },
     {
       "key": "set -g focus-events",
@@ -61,7 +61,7 @@
     },
     {
       "key": "set -g @catpuccin_flavour",
-      "value": "'latte'"
+      "value": "'mocha'"
     },
     {
       "comment": "Catpuccin Plugin Settings",

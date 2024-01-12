@@ -29,13 +29,23 @@
       "deliminator": "="
     },
     {
+      "key": "alias less",
+      "value": "'less -r'",
+      "deliminator": "="
+    },
+    {
+      "key": "alias rg",
+      "value": "'rg --color=always'",
+      "deliminator": "="
+    },
+    {
       "key": "alias ll",
-      "value": "'ls -lh --color=auto'",
+      "value": "'ls -lh --color=always'",
       "deliminator": "="
     },
     {
       "key": "alias la",
-      "value": "'ls -lah --color=auto'",
+      "value": "'ls -lah --color=always'",
       "deliminator": "="
     },
     {

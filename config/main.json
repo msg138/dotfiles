@@ -47,6 +47,36 @@
         "location": ".vim/pack/vendor/start"
       },
       {
+        "repo": "https://github.com/SirVer/ultisnips.git",
+        "repoFolder": "ultisnips",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/tpope/vim-fugitive.git",
+        "repoFolder": "vim-fugitive",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/honza/vim-snippets.git",
+        "repoFolder": "vim-snippets",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/airblade/vim-gitgutter.git",
+        "repoFolder": "vim-gitgutter",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/anschnapp/move-less.git",
+        "repoFolder": "move-less",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
+        "repo": "https://github.com/dkarter/bullets.vim.git",
+        "repoFolder": "bullets.vim",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
         "repo": "https://github.com/catppuccin/vim.git",
         "repoFolder": "vim",
         "location": "git-clones"

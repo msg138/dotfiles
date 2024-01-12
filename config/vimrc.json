@@ -32,6 +32,11 @@
       "deliminator": "="
     },
     {
+      "key": "set colorcolumn",
+      "value": "100",
+      "deliminator": "="
+    },
+    {
       "key": "color",
       "value": "catppuccin_mocha"
     },
@@ -62,6 +67,11 @@
       "value": "2"
     },
     {
+      "key": "set softtabstop",
+      "deliminator": "=",
+      "value": "2"
+    },
+    {
       "key": "set showtabline",
       "deliminator": "=",
       "value": "2"
@@ -77,6 +87,16 @@
     {
       "key": "set",
       "value": "number"
+    },
+    {
+      "comment": "Configuration for lightline plugin",
+      "key": "set laststatus",
+      "value": "2",
+      "deliminator": "="
+    },
+    {
+      "key": "set",
+      "value": "noshowmode"
     },
     {
       "comment": "Mapping for FuzzyFinder (FZF)",
@@ -95,8 +115,46 @@
     },
     {
       "comment": "Mapping for NERDTree Toggle",
-      "key": "map <Space>t",
+      "key": "map <C-t>",
       "value": ":NERDTreeToggle<CR>"
+    },
+    {
+      "comment": "Mapping for move-less to scroll without moving edit cursor",
+      "key": "noremap \"",
+      "value": ":call MoveLessMode()<CR>"
+    },
+    {
+      "comment": "Required to prevent overwriting of shiftwidth in markdown files",
+      "key": "let g:markdown_recommended_style",
+      "value": "0",
+      "deliminator": "="
+    },
+    {
+      "comment": "UltiSnips rebinding To prevent clashing with YouCompleteMe plugin",
+      "key": "let g:UltiSnipsExpandTrigger",
+      "value": "\"<C-Space>\"",
+      "deliminator": "="
+    },
+    {
+      "key": "let g:UltiSnipsJumpForwardTrigger",
+      "value": "\"<C-j>\"",
+      "deliminator": "="
+    },
+    {
+      "key": "let g:UltiSnipsJumpBackwardTrigger",
+      "value": "\"<C-k>\"",
+      "deliminator": "="
+    },
+    {
+      "key": "let g:UltiSnipsEditSplit",
+      "value": "\"Vertical\"",
+      "deliminator": "="
+    },
+    {
+      "comment": "Bullets.vim binding override",
+      "key": "let g:bullets_custom_mappings",
+      "value": "[['imap', '<C-l>', '<Plug>(bullets-demote)'],['imap', '<C-h>', '<Plug>(bullets-promote)']]",
+      "deliminator": "="
     }
   ]
 }
