@@ -86,7 +86,8 @@
   "dotfiles": [
     "vimrc.json",
     "bashrc.json",
-    "tmuxrc.json"
+    "tmuxrc.json",
+    "ssh-config.json"
   ],
   "symlinks": [
     {

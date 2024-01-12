@@ -30,6 +30,11 @@
     },
     {
       "key": "alias ll",
+      "value": "'ls -lh --color=auto'",
+      "deliminator": "="
+    },
+    {
+      "key": "alias la",
       "value": "'ls -lah --color=auto'",
       "deliminator": "="
     },

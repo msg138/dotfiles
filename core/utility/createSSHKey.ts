@@ -18,7 +18,7 @@ const createSSHKey = (options: SSHKeyOptions): string => {
       '-f',
       options.keyLocation,
       '-N',
-      '\'\'',
+      ''
     ],
   );
   const fileReader = new FSFileReader();

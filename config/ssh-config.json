@@ -1,0 +1,19 @@
+{
+  "fileName": "ssh-config",
+  "symlink": "<home>/.ssh/config",
+  "configValues": [
+    {
+      "key": "Host",
+      "value": "github.com"
+    },
+    {
+      "key": "  AddKeysToAgent",
+      "value": "yes"
+    },
+    {
+      "key": "  IdentityFile",
+      "value": "<home>/.ssh/github_key",
+      "replaceVariables": true
+    }
+  ]
+}
