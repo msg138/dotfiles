@@ -79,11 +79,6 @@
       "value": "number"
     },
     {
-      "comment": "Enable YouCompleteMe",
-      "key": "",
-      "value": ""
-    },
-    {
       "comment": "Mapping for FuzzyFinder (FZF)",
       "key": "map ;",
       "value": ":FZF<CR>"
