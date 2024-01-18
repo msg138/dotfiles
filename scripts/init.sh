@@ -30,3 +30,4 @@ set -e
 
 /bin/bash "$this_directory/install-rust.sh"
 /bin/bash "$this_directory/install-ripgrep.sh"
+/bin/bash "$this_directory/install-git-delta.sh"

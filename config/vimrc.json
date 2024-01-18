@@ -155,6 +155,28 @@
       "key": "let g:bullets_custom_mappings",
       "value": "[['imap', '<C-l>', '<Plug>(bullets-demote)'],['imap', '<C-h>', '<Plug>(bullets-promote)']]",
       "deliminator": "="
+    },
+    {
+      "comment": "Custom insert filename binding for fzf from: https://vi.stackexchange.com/questions/19119/insert-filepath-from-fzf-window-in-buffer",
+      "key": "func!",
+      "value": "s:insert_file_name(lines)"
+    },
+    {
+      "key": "\tlet @@ =",
+      "value": "fnamemodify(a:lines[0], \":p\")"
+    },
+    {
+      "key": "\tnormal!",
+      "value": "p"
+    },
+    {
+      "key": "endfunc",
+      "value": " "
+    },
+    {
+      "key": "let g:fzf_action",
+      "value": "{ 'ctrl-r': function('s:insert_file_name')}",
+      "deliminator": "="
     }
   ]
 }

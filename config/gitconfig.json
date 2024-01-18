@@ -1,0 +1,76 @@
+{
+  "fileName": "git-config",
+  "symlink": "<home>/.gitconfig",
+  "deliminator": "=",
+  "configValues": [
+    {
+      "key": "[core]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tpager",
+      "value": "delta"
+    },
+    {
+      "key": "\n[interactive]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tdiffFilter",
+      "value": "delta --color-only --features=interactive"
+    },
+    {
+      "key": "\n[delta]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tfeatures",
+      "value": "decorations"
+    },
+    {
+      "key": "\n[delta \"interactive\"]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tkeep-plus-minus-markers",
+      "value": "false"
+    },
+    {
+      "key": "\n[delta \"decorations\"]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tcommit-decoration-style",
+      "value": "blue ol"
+    },
+    {
+      "key": "\tcommit-style",
+      "value": "raw"
+    },
+    {
+      "key": "\tfile-style",
+      "value": "omit"
+    },
+    {
+      "key": "\thunk-header-decoration-style",
+      "value": "blue box"
+    },
+    {
+      "key": "\thunk-header-file-style",
+      "value": "red"
+    },
+    {
+      "key": "\thunk-header-line-number-style",
+      "value": "\"#067a00\""
+    },
+    {
+      "key": "\thunk-header-style",
+      "value": "file line-number syntax"
+    }
+  ]
+}

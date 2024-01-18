@@ -117,7 +117,8 @@
     "vimrc.json",
     "bashrc.json",
     "tmuxrc.json",
-    "ssh-config.json"
+    "ssh-config.json",
+    "gitconfig.json"
   ],
   "symlinks": [
     {
