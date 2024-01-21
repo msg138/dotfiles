@@ -47,6 +47,11 @@
         "location": ".vim/pack/vendor/start"
       },
       {
+        "repo": "https://github.com/prettier/vim-prettier.git",
+        "repoFolder": "vim-prettier",
+        "location": ".vim/pack/vendor/start"
+      },
+      {
         "repo": "https://github.com/SirVer/ultisnips.git",
         "repoFolder": "ultisnips",
         "location": ".vim/pack/vendor/start"
