@@ -71,6 +71,19 @@
     {
       "key": "\thunk-header-style",
       "value": "file line-number syntax"
+    },
+    {
+      "key": "[user]",
+      "value": " ",
+      "deliminator": ""
+    },
+    {
+      "key": "\tname",
+      "value": "Michael George"
+    },
+    {
+      "key": "\temail",
+      "value": "streetbard16@hotmail.com"
     }
   ]
 }
